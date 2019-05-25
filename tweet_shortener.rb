@@ -37,14 +37,14 @@ def selective_tweet_shortener(tweet_one)
   end
 end
 
-# def shortened_tweet_truncator(tweet_one)
-#   new_tweet = selective_tweet_shortener(tweet_one)
-#   if new_tweet.length > 140
-#     new_tweet.split.map do |final_tweet|
-#       puts new_tweet[0..137] << ["..."]
-#       new_tweet.to_s
-#     end
-#   else
-#     new_tweet
-#   end
-# end
+def shortened_tweet_truncator(tweet_one)
+  # new_tweet = selective_tweet_shortener(tweet_one)
+  # if new_tweet.length > 140
+  #   new_tweet.split.map do |final_tweet|
+  #     puts new_tweet[0..137] << ["..."]
+  #     new_tweet.to_s
+  #   end
+  # else
+  #   new_tweet
+  # end
+end
